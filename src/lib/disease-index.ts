@@ -1,0 +1,31 @@
+// Curated A–Z reference index of common diseases & conditions.
+export const DISEASE_INDEX: Record<string, string[]> = {
+  A: ["Acne", "ADHD", "Alzheimer's disease", "Anemia", "Anxiety disorder", "Appendicitis", "Asthma", "Atrial fibrillation"],
+  B: ["Bell's palsy", "Bipolar disorder", "Bronchitis", "Bursitis"],
+  C: ["Cataracts", "Celiac disease", "Chickenpox", "Chronic kidney disease", "COPD", "Coronary artery disease", "Crohn's disease", "Cystic fibrosis"],
+  D: ["Dengue fever", "Depression", "Dermatitis", "Diabetes (Type 1)", "Diabetes (Type 2)", "Diverticulitis"],
+  E: ["Eczema", "Endometriosis", "Epilepsy", "Erectile dysfunction"],
+  F: ["Fibromyalgia", "Flu (Influenza)", "Food poisoning"],
+  G: ["Gallstones", "Gastritis", "GERD", "Glaucoma", "Gout"],
+  H: ["Hashimoto's thyroiditis", "Hay fever", "Heart failure", "Hemochromatosis", "Hepatitis B", "Hepatitis C", "Hypertension", "Hyperthyroidism", "Hypothyroidism"],
+  I: ["IBS", "Insomnia", "Iron deficiency anemia"],
+  J: ["Jaundice"],
+  K: ["Kawasaki disease", "Kidney stones"],
+  L: ["Laryngitis", "Leukemia", "Lupus", "Lyme disease", "Lymphoma"],
+  M: ["Malaria", "Measles", "Melanoma", "Meningitis", "Migraine", "Multiple sclerosis", "Mumps"],
+  N: ["Narcolepsy", "Nephritis", "Norovirus"],
+  O: ["Obesity", "OCD", "Osteoarthritis", "Osteoporosis", "Otitis media"],
+  P: ["Pancreatitis", "Parkinson's disease", "Peptic ulcer", "Pneumonia", "Polycystic ovary syndrome", "Psoriasis", "PTSD"],
+  Q: ["Q fever"],
+  R: ["Raynaud's phenomenon", "Rheumatoid arthritis", "Rosacea", "RSV infection"],
+  S: ["Sarcoidosis", "Scabies", "Schizophrenia", "Sciatica", "Scoliosis", "Shingles", "Sickle cell disease", "Sinusitis", "Sleep apnea", "Stroke"],
+  T: ["Tendinitis", "Tinnitus", "Tonsillitis", "Tuberculosis", "Type 2 Diabetes"],
+  U: ["Ulcerative colitis", "Urinary tract infection"],
+  V: ["Varicose veins", "Vertigo", "Vitiligo"],
+  W: ["Whooping cough", "Wilson's disease"],
+  X: ["Xerostomia"],
+  Y: ["Yellow fever"],
+  Z: ["Zika virus"],
+};
+
+export const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
